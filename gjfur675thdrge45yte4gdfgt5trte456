@@ -10,7 +10,6 @@
 --
 --
 --
-print("github")
 --
 --
 --
@@ -611,7 +610,7 @@ if game.PlaceId == 5610197459 then
 	EXHIBITION.vers.Position = UDim2.new(0.457627118, 0, 0.817796588, 0)
 	EXHIBITION.vers.Size = UDim2.new(0, 200, 0, 50)
 	EXHIBITION.vers.Font = Enum.Font.FredokaOne
-	EXHIBITION.vers.Text = "b0.03"
+	EXHIBITION.vers.Text = "b0.03 ?"
 	EXHIBITION.vers.TextColor3 = Color3.fromRGB(57, 57, 57)
 	EXHIBITION.vers.TextSize = 14.000
 
