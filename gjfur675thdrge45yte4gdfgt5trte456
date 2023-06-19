@@ -3220,7 +3220,7 @@ if game.PlaceId == 5610197459 then
 	EXHIBITION.changed.Position = UDim2.new(0.217500001, 0, 0.090336144, 0)
 	EXHIBITION.changed.Size = UDim2.new(0, 18, 0, 44)
 	EXHIBITION.changed.Font = Enum.Font.FredokaOne
-	EXHIBITION.changed.Text = "Settings catergory."
+	EXHIBITION.changed.Text = "Settings category."
 	EXHIBITION.changed.TextColor3 = Color3.fromRGB(193, 193, 193)
 	EXHIBITION.changed.TextSize = 15.000
 	EXHIBITION.changed.TextXAlignment = Enum.TextXAlignment.Left
@@ -3232,7 +3232,7 @@ if game.PlaceId == 5610197459 then
 	EXHIBITION.changed_2.Position = UDim2.new(0.217500001, 0, 0.0441176817, 0)
 	EXHIBITION.changed_2.Size = UDim2.new(0, 18, 0, 44)
 	EXHIBITION.changed_2.Font = Enum.Font.FredokaOne
-	EXHIBITION.changed_2.Text = "Server catergory."
+	EXHIBITION.changed_2.Text = "Server category."
 	EXHIBITION.changed_2.TextColor3 = Color3.fromRGB(193, 193, 193)
 	EXHIBITION.changed_2.TextSize = 15.000
 	EXHIBITION.changed_2.TextXAlignment = Enum.TextXAlignment.Left
@@ -3244,7 +3244,7 @@ if game.PlaceId == 5610197459 then
 	EXHIBITION.changed_3.Position = UDim2.new(0.217500001, 0, -0.00420166645, 0)
 	EXHIBITION.changed_3.Size = UDim2.new(0, 18, 0, 44)
 	EXHIBITION.changed_3.Font = Enum.Font.FredokaOne
-	EXHIBITION.changed_3.Text = "Teleportation catergory."
+	EXHIBITION.changed_3.Text = "Teleportation category."
 	EXHIBITION.changed_3.TextColor3 = Color3.fromRGB(193, 193, 193)
 	EXHIBITION.changed_3.TextSize = 15.000
 	EXHIBITION.changed_3.TextXAlignment = Enum.TextXAlignment.Left
