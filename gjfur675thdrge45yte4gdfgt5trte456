@@ -295,6 +295,13 @@ end
 
 if game.PlaceId == 5610197459 then
 
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Warning";
+    Text = "Github Edition";
+    Duration = 2.5;
+
+})
+
 	local EXHIBITION = {
 		blureffect = Instance.new("BlurEffect"),
 		hi = Instance.new("Part"),
