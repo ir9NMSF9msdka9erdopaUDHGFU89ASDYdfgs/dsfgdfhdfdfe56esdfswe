@@ -3458,6 +3458,7 @@ if game.PlaceId == 5610197459 then
 
 			counter = counter + math.pi/40
 			if (counter >= math.pi * 2) then counter = 0 end	
+			task.wait()
 		end
 
 		local finalCacheCt = #cskCache
@@ -3511,7 +3512,8 @@ if game.PlaceId == 5610197459 then
 			CS = {}
 
 			counter = counter + math.pi/40
-			if (counter >= math.pi * 2) then counter = 0 end	
+			if (counter >= math.pi * 2) then counter = 0 end
+			task.wait()
 		end
 
 		local finalCacheCt = #cskCache
@@ -4014,7 +4016,7 @@ if game.PlaceId == 5610197459 then
 		partdeath.Parent = game.Workspace
 		while true do
 			pcall(function()
-				partdeath.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame
+				partdeath.CFrame = game:GetService("Players").LocalPlayer.Character.Head.CFrame
 			end)
 			task.wait()
 		end
@@ -4653,6 +4655,7 @@ if game.PlaceId == 5610197459 then
 					partdeath.CanCollide = false
 					partdeath.Anchored = true
 					partdeath.Transparency = 1
+					partdeath.Size = Vector3.new(0.5, 0.5, 0.5)
 					wait(2)
 					game:GetService("Players").LocalPlayer.CharacterAdded:Wait():WaitForChild("HumanoidRootPart").CFrame = CFrame.new(partdeath.Position)
 					partdeath:Destroy()
@@ -5616,55 +5619,55 @@ if game.PlaceId == 5610197459 then
 		while EXHIBITION.vendingtrue.Visible == true do
 			pcall(function()
 				fireclickdetector(workspace.Map.VendingMachine.redb.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.gator.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.dietcoke.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.mtndew.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine["7up"].ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.aw.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.coke.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.pepsi.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.fanta.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.drpep.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.sprite.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.lipton.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.peace.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.slurp.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.bloxy.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.sodab.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.orangec.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.grapec.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.witchss.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine:GetChildren()[70].ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine:GetChildren()[51].ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine.super.ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine:GetChildren()[61].ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine:GetChildren()[51].ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 				fireclickdetector(workspace.Map.VendingMachine:GetChildren()[65].ClickDetector)
-				wait(0.01)
+				wait(0.0000001)
 			end)
 
 			task.wait()
@@ -7018,6 +7021,7 @@ if game.PlaceId == 5610197459 then
 
 				wait(0.01)
 			end)
+			wait(0.0000000000001)
 		end
 
 	end)
