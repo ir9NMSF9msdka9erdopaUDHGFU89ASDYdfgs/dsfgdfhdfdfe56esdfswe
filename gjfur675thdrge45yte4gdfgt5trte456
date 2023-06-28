@@ -4495,6 +4495,15 @@ if game.PlaceId == 5610197459 then
 	EXHIBITION.slaptrue.MouseButton1Down:Connect(function()
 		EXHIBITION.slapfalse.Visible = true
 		EXHIBITION.slaptrue.Visible = false
+		
+		pcall(function()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+		end)
 
 	end)
 
@@ -4521,6 +4530,15 @@ if game.PlaceId == 5610197459 then
 	EXHIBITION.stomptrue.MouseButton1Down:Connect(function()
 		EXHIBITION.stompfalse.Visible = true
 		EXHIBITION.stomptrue.Visible = false
+		
+		pcall(function()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+		end)
 
 	end)
 
@@ -4569,6 +4587,15 @@ if game.PlaceId == 5610197459 then
 	EXHIBITION.kicktrue.MouseButton1Down:Connect(function()
 		EXHIBITION.kicktrue.Visible = false
 		EXHIBITION.kickfalse.Visible = true
+		
+		pcall(function()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+			game:GetService("Players").LocalPlayer.Character.Humanoid:UnequipTools()
+		end)
 
 	end)
 
