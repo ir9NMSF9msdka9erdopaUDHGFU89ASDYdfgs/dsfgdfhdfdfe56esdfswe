@@ -2303,7 +2303,7 @@ if game.PlaceId == 5610197459 then
 		EXHIBITION.vers_2.Position = UDim2.new(0.613138616, 0, 0.0938037932, 0)
 		EXHIBITION.vers_2.Size = UDim2.new(0, 30, 0, 50)
 		EXHIBITION.vers_2.Font = Enum.Font.FredokaOne
-		EXHIBITION.vers_2.Text = "B0.03"
+		EXHIBITION.vers_2.Text = "b0.03"
 		EXHIBITION.vers_2.TextColor3 = Color3.fromRGB(178, 178, 178)
 		EXHIBITION.vers_2.TextSize = 18.000
 		EXHIBITION.vers_2.TextXAlignment = Enum.TextXAlignment.Left
