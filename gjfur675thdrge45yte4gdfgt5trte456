@@ -2348,7 +2348,7 @@ if game.PlaceId == 5610197459 then
 		EXHIBITION.TextLabel_59.Position = UDim2.new(0.397810191, 0, 0.18639639, 0)
 		EXHIBITION.TextLabel_59.Size = UDim2.new(0, 30, 0, 50)
 		EXHIBITION.TextLabel_59.Font = Enum.Font.FredokaOne
-		EXHIBITION.TextLabel_59.Text = "miss ayat#6834"
+		EXHIBITION.TextLabel_59.Text = "missayat on Discord"
 		EXHIBITION.TextLabel_59.TextColor3 = Color3.fromRGB(178, 178, 178)
 		EXHIBITION.TextLabel_59.TextSize = 18.000
 		EXHIBITION.TextLabel_59.TextXAlignment = Enum.TextXAlignment.Left
