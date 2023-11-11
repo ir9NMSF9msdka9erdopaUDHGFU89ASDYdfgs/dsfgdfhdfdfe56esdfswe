@@ -304,10 +304,10 @@ if game.PlaceId == 5610197459 then
 				Duration = 5;
 			})
 		else
-		game.StarterGui:SetCore("SendNotification", {
-			Title = "Warning";
-			Text = "Exhibition Hub is already running.";
-			Duration = 5;
+			game.StarterGui:SetCore("SendNotification", {
+				Title = "Warning";
+				Text = "Exhibition Hub is already running.";
+				Duration = 5;
 			})
 		end
 	else
@@ -4501,12 +4501,12 @@ if game.PlaceId == 5610197459 then
 						repeat
 							game.Players.LocalPlayer.Backpack.Fight.Mode.Value = "Slap"
 							game:GetService("Players").LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.Fight)
-							task.wait()
+							wait(0.02)
 						until
 						toolfound == true
 					end         
 				end)
-				task.wait()
+				wait(0.02)
 			end
 
 		end)
@@ -4541,7 +4541,7 @@ if game.PlaceId == 5610197459 then
 					stomp()
 
 				end)
-				task.wait()
+				wait(0.02)
 			end
 
 		end)
@@ -4587,18 +4587,18 @@ if game.PlaceId == 5610197459 then
 							}
 
 							game:GetService("Players").LocalPlayer.Character.Fight.FightScript.FightEvent:FireServer(unpack(args))
-							task.wait()
+							wait(0.02)
 						end
 					else
 						repeat
 							game.Players.LocalPlayer.Backpack.Fight.Mode.Value = "Kick"
 							game:GetService("Players").LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.Fight)
-							task.wait()
+							wait(0.02)
 						until
 						toolfound == true
 					end         
 				end)
-				task.wait()
+				wait(0.02)
 			end
 
 		end)
@@ -4859,13 +4859,13 @@ if game.PlaceId == 5610197459 then
 						}
 
 						game:GetService("Players").LocalPlayer.Character.Fight.FightScript.FightEvent:FireServer(unpack(args))
-						task.wait()
+						wait(0.02)
 					end
 				else
 					repeat
 						game.Players.LocalPlayer.Backpack.Fight.Mode.Value = "Stomp"
 						game:GetService("Players").LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.Fight)
-						task.wait()
+						wait(0.02)
 					until
 					toolfound == true
 				end   
@@ -4896,13 +4896,13 @@ if game.PlaceId == 5610197459 then
 						}
 
 						game:GetService("Players").LocalPlayer.Character.Fight.FightScript.FightEvent:FireServer(unpack(args))
-						task.wait()
+						wait(0.02)
 					end
 				else
 					repeat
 						game.Players.LocalPlayer.Backpack.Fight.Mode.Value = "Stomp"
 						game:GetService("Players").LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.Fight)
-						task.wait()
+						wait(0.02)
 					until
 					toolfound == true
 				end   
@@ -4935,13 +4935,13 @@ if game.PlaceId == 5610197459 then
 						}
 
 						game:GetService("Players").LocalPlayer.Character.Fight.FightScript.FightEvent:FireServer(unpack(args))
-						task.wait()
+						wait(0.02)
 					end
 				else
 					repeat
 						game.Players.LocalPlayer.Backpack.Fight.Mode.Value = "Slap"
 						game:GetService("Players").LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.Fight)
-						task.wait()
+						wait(0.02)
 					until
 					toolfound == true
 				end         
@@ -4968,13 +4968,13 @@ if game.PlaceId == 5610197459 then
 						}
 
 						game:GetService("Players").LocalPlayer.Character.Fight.FightScript.FightEvent:FireServer(unpack(args))
-						task.wait()
+						wait(0.02)
 					end
 				else
 					repeat
 						game.Players.LocalPlayer.Backpack.Fight.Mode.Value = "Stomp"
 						game:GetService("Players").LocalPlayer.Character.Humanoid:EquipTool(game.Players.LocalPlayer.Backpack.Fight)
-						task.wait()
+						wait(0.02)
 					until
 					toolfound == true
 				end   
